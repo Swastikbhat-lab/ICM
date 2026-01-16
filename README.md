@@ -1,4 +1,4 @@
-# Internal Coherence Maximization (ICM) Implementation
+# Internal Coherence Maximization Implementation
 
 Implementation of Algorithm 1 from the paper **"Unsupervised Elicitation of Language Models"** (Wen et al., 2025).
 
@@ -25,7 +25,6 @@ ICM is an unsupervised algorithm that enables language models to generate their 
 
 ![Results](results.png)
 
-**Key Finding**: ICM-generated labels outperformed golden supervision (90% vs 85%)!
 
 ---
 
@@ -66,24 +65,6 @@ pip install -r requirements.txt
 python icm.py --api_key YOUR_API_KEY
 ```
 
----
-
-##  Project Structure
-
-```
-ICM-/
-├── icm.py                      # Main ICM implementation
-├── data/
-│   ├── truthfulqa_train.json   # 256 training examples
-│   └── truthfulqa_test.json    # 100 test examples
-├── results.png                 # Results figure
-├── results.json                # Raw accuracy numbers
-├── ICM_Report.docx             # Detailed report
-├── requirements.txt            # Python dependencies
-└── README.md
-```
-
----
 
 ##  Models Used
 
@@ -105,7 +86,6 @@ ICM-/
 | T_min | 0.01 | Final temperature |
 | β | 0.99 | Cooling rate |
 
----
 
 ---
 
