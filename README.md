@@ -107,24 +107,12 @@ ICM-/
 
 ---
 
-##  Future Directions
-
-1. **ICM for Chain-of-Thought**: Apply mutual predictability to reasoning steps
-2. **Concept Discovery**: Let models discover latent concepts automatically
-3. **Adversarial ICM**: Two models compete — one labels, one finds edge cases
-
 ---
 
 ##  References
 
 - Wen, J., et al. (2025). *Unsupervised Elicitation of Language Models*. [arXiv:2506.10139](https://arxiv.org/abs/2506.10139)
 - Lin, S., et al. (2021). *TruthfulQA*. [arXiv:2109.07958](https://arxiv.org/abs/2109.07958)
-
----
-
-##  AI Tools Disclosure
-
-This implementation was developed with assistance from Claude (Anthropic).
 
 ---
 
