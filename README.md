@@ -38,7 +38,7 @@ ICM is an unsupervised algorithm that enables language models to generate their 
    c. Ask model: "What label fits best given current D?"
    d. Compute Δ = U(D_new) - U(D_old)
    e. If Δ > 0: Accept
-      Else: Accept with probability exp(Δ/T)
+      Else: Accept with probability 
 ```
 
 **Scoring Function**: `U(D) = α × P(D) - I(D)`
