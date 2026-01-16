@@ -1,0 +1,6 @@
+{
+  "Zero-shot\n(Base)": 71.0,
+  "Zero-shot\n(Chat)": 56.99999999999999,
+  "Golden\nSupervision": 85.0,
+  "Unsupervised\n(Ours)": 90.0
+}
