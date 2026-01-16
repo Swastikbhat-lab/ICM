@@ -94,8 +94,4 @@ python icm.py --api_key YOUR_API_KEY
 - Wen, J., et al. (2025). *Unsupervised Elicitation of Language Models*. [arXiv:2506.10139](https://arxiv.org/abs/2506.10139)
 - Lin, S., et al. (2021). *TruthfulQA*. [arXiv:2109.07958](https://arxiv.org/abs/2109.07958)
 
----
 
-##  License
-
-MIT
