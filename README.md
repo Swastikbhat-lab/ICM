@@ -48,24 +48,6 @@ ICM is an unsupervised algorithm that enables language models to generate their 
 
 ---
 
-##  Setup
-
-### 1. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 2. Get Hyperbolic API Key
-1. Go to https://app.hyperbolic.xyz/
-2. Create account and add funds (~$20)
-3. Get API key from Settings
-
-### 3. Run Experiment
-```bash
-python icm.py --api_key YOUR_API_KEY
-```
-
-
 ##  Models Used
 
 | Model | Endpoint | Purpose |
